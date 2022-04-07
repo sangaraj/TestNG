@@ -1,15 +1,27 @@
 <suite name="suite">
     <test name="Module1">
         <classes>
-            <class name = "BasicTestNG"/>
+            <class name = "BasicTestNG">
+                <methods>
+                    <include name="testMethod2"/>
+                    //include will excute only the above test and skip rest of the @test methods
+                </methods>
+            </class>
+
             <class name="ClassTwo"/>
         </classes>
     </test>
     <test name="module2">
         <classes>
-            <class name="ClassThree"/>
+            <class name="ClassThree">
+                <methods>
+                    //Exclude will skip the test and execute rest of the @test methods
+                    <exclude name="ClassThreeTest2"/>
+
+                </methods>
+            </class>
         </classes>
     </test>
 
-    //We can define the test to run only the classes that are mentioned in the test block
+    //We can define the class name to run only the classes that are mentioned in the test block
 </suite>
