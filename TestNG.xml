@@ -11,17 +11,4 @@
             <class name="ClassTwo"/>
         </classes>
     </test>
-    <test name="module2">
-        <classes>
-            <class name="ClassThree">
-                <methods>
-                    //Exclude will skip the test and execute rest of the @test methods
-                    <exclude name="ClassThreeTest2"/>
-
-                </methods>
-            </class>
-        </classes>
-    </test>
-
-    //We can define the class name to run only the classes that are mentioned in the test block
-</suite>
+   <suite>
