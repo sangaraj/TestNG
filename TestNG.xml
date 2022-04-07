@@ -4,7 +4,7 @@
             <class name = "BasicTestNG">
                 <methods>
                     <include name="testMethod2"/>
-                    //include will excute only the above test and skip rest of the @test methods
+                    //include will execute only the above test and skip rest of the @test methods
                 </methods>
             </class>
 
