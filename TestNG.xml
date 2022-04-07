@@ -1,8 +1,13 @@
 <suite name="suite">
-    <test name="test">
+    <test name="Module1">
         <classes>
-            <class name = "BasicTestNG">
-            </class>
+            <class name = "BasicTestNG"/>
+            <class name="ClassTwo"/>
+        </classes>
+    </test>
+    <test name="module2">
+        <classes>
+            <class name="ClassThree"/>
         </classes>
     </test>
 </suite>
