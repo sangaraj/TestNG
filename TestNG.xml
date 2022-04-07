@@ -10,4 +10,6 @@
             <class name="ClassThree"/>
         </classes>
     </test>
+
+    //We can define the test to run only the classes that are mentioned in the test block
 </suite>
