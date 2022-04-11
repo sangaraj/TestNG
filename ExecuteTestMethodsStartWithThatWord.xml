@@ -1,0 +1,11 @@
+<suite name ="suit1">
+    <test name ="test">
+        <classes>
+            <class name="ExecuteAllCasesWithSpecificKeyword">
+                <methods>
+                    <exclude name="login.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
