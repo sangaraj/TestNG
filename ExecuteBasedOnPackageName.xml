@@ -1,0 +1,7 @@
+<suite name ="package level">
+    <test name="test">
+        <packages >
+            <package name="package1"/>
+        </packages>
+    </test>
+</suite>
