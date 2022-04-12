@@ -1,0 +1,13 @@
+<suite name="groups">
+    <test name="execute test with keyword smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "GroupBy1"/>
+            <class name="GroupBy2"/>
+        </classes>
+    </test>
+</suite>
