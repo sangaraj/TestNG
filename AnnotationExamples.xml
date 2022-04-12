@@ -1,0 +1,16 @@
+<suite name="annotationexample">
+    <test name="TestngAnnotation1">
+        <classes>
+            <class name="TestngAnnotation1"/>
+
+        </classes>
+    </test>
+
+    <test name ="TestngAnnotation2">
+        <classes>
+            <class name="TestngAnnotation1"/>
+            <class name="TestngAnnotation2"/>
+            <class name="TestngAnnotation3"/>
+        </classes>
+    </test>
+</suite>
