@@ -1,0 +1,14 @@
+<suite name="parameterization">
+    <parameter name="username" value="rohit"/>
+    <test name = "simple">
+        <classes>
+            <class name="Parameterization"/>
+        </classes>
+    </test>
+    <test name="hello">
+        <parameter name="message" value="hello"/>
+            <classes>
+                <class name="ParameterizationTwo"/>
+            </classes>
+    </test>
+</suite>
