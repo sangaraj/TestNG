@@ -1,5 +1,6 @@
 <suite name="parameterization">
-    <parameter name="username" value="rohit"/>
+    <parameter name="username" value="Rohit"/>
+    <parameter name="last name" value="Kumar"/>
     <test name = "simple">
         <classes>
             <class name="Parameterization"/>

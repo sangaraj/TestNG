@@ -3,11 +3,11 @@ import org.testng.annotations.Test;
 
 public class Parameterization {
 
-    @Parameters({"username"})
+    @Parameters({"username", "last name"})
     @Test
-    public void printUserName(String username)
+    public void printUserName(String username, String lastname)
     {
-        System.out.println("Hello  " + username);
+        System.out.println("Hello  " + username + lastname);
     }
 
     /*
