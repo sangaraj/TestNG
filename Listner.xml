@@ -1,0 +1,10 @@
+<suite name="listner">
+    <listeners>
+        <listener class-name="ListnerExample"/>
+    </listeners>
+    <test name ="test">
+        <classes>
+            <class name="ListnerExample1"/>
+        </classes>
+    </test>
+</suite>
