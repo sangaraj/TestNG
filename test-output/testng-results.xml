@@ -2,26 +2,26 @@
 <testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-14T18:53:42 IST" name="suite" finished-at="2022-04-14T18:53:42 IST" duration-ms="176">
+  <suite started-at="2022-04-15T16:39:37 IST" name="suite" finished-at="2022-04-15T16:39:38 IST" duration-ms="262">
     <groups>
     </groups>
-    <test started-at="2022-04-14T18:53:42 IST" name="Module1" finished-at="2022-04-14T18:53:42 IST" duration-ms="13">
+    <test started-at="2022-04-15T16:39:37 IST" name="Module1" finished-at="2022-04-15T16:39:37 IST" duration-ms="20">
       <class name="BasicTestNG">
-        <test-method signature="testMethod2()[pri:0, instance:BasicTestNG@17211155]" started-at="2022-04-14T18:53:42 IST" name="testMethod2" finished-at="2022-04-14T18:53:42 IST" duration-ms="1" status="PASS">
+        <test-method signature="testMethod2()[pri:0, instance:BasicTestNG@222114ba]" started-at="2022-04-15T16:39:37 IST" name="testMethod2" finished-at="2022-04-15T16:39:37 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
       </class> <!-- BasicTestNG -->
       <class name="ClassTwo">
-        <test-method signature="ClassTwoTest1()[pri:0, instance:ClassTwo@24b1d79b]" started-at="2022-04-14T18:53:42 IST" name="ClassTwoTest1" finished-at="2022-04-14T18:53:42 IST" duration-ms="0" status="PASS">
+        <test-method signature="ClassTwoTest1()[pri:0, instance:ClassTwo@7219ec67]" started-at="2022-04-15T16:39:37 IST" name="ClassTwoTest1" finished-at="2022-04-15T16:39:37 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClassTwoTest1 -->
       </class> <!-- ClassTwo -->
     </test> <!-- Module1 -->
-    <test started-at="2022-04-14T18:53:42 IST" name="module2" finished-at="2022-04-14T18:53:42 IST" duration-ms="1">
+    <test started-at="2022-04-15T16:39:38 IST" name="module2" finished-at="2022-04-15T16:39:38 IST" duration-ms="0">
       <class name="ClassThree">
-        <test-method signature="ClassThreeTest1()[pri:0, instance:ClassThree@276438c9]" started-at="2022-04-14T18:53:42 IST" name="ClassThreeTest1" finished-at="2022-04-14T18:53:42 IST" duration-ms="0" status="PASS">
+        <test-method signature="ClassThreeTest1()[pri:0, instance:ClassThree@60d8c9b7]" started-at="2022-04-15T16:39:38 IST" name="ClassThreeTest1" finished-at="2022-04-15T16:39:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClassThreeTest1 -->
