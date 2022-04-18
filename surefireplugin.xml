@@ -1,0 +1,14 @@
+<suite name="suite">
+    <test name="Module1">
+        <classes>
+            <class name = "BasicTestNG"/>
+        </classes>
+    </test>
+
+    <!-- https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html -->
+    <!-- if we want to run an xml file using maven, add suitexml tag and given xml file name in the tag and in command run mvn test   -->
+    <!-- This will execute only classes mentioned in xml file, else all the test cases will be executed -->
+    <!-- to run test of single class use mvn -Dtest=Classname test -->
+
+
+</suite>
