@@ -1,5 +1,6 @@
 BasicTestNG.class
 AlphabaticalOrderOfExecutionOfTest.class
+Regression1.class
 ExecuteAllCasesWithSpecificKeyword.class
 ListnerExample.class
 ClassTwo.class
@@ -10,9 +11,11 @@ Parameterization.class
 ToSkipATest.class
 ListnerExample1.class
 ParameterizationTwo.class
+Smoke.class
 TestngAnnotation2.class
 GroupBy1.class
 TestngAnnotation3.class
 package1/Package1_Class1.class
 GroupBy2.class
+Regression2.class
 DependsOnMethod.class

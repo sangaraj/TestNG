@@ -12,36 +12,69 @@
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
 
-    <build>
-        <!--  install maven -> brew install maven-->
-        <!-- add following plugin and exute the test cases using command prompt -->
+    <profiles>
+        <profile>
+            <id> regression</id>
+            <build>
+                <!--  install maven -> brew install maven-->
+                <!-- add following plugin and exute the test cases using command prompt -->
 
-        <!-- mvn clean -> to clean the project -->
-        <!-- mvn compile -> to check for any errors in the code -->
-        <!-- mvn test -> to run all the test -->
-        <!-- mvn -Dtest=ClassName test, this will run only specific class -->
+                <!-- mvn clean -> to clean the project -->
+                <!-- mvn compile -> to check for any errors in the code -->
+                <!-- mvn test -> to run all the test -->
+                <!-- mvn -Dtest=ClassName test, this will run only specific class -->
+
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-surefire-plugin</artifactId>
+                            <version>3.0.0-M6</version>
+                            <configuration>
+                                <suiteXmlFiles>
+                                    <suiteXmlFile>TestNG.xml</suiteXmlFile>
+                                </suiteXmlFiles>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+
+                </pluginManagement>
+            </build>
+
+        </profile>
+
+        <profile>
+            <id> smoke</id>
+            <build>
+                <!--  install maven -> brew install maven-->
+                <!-- add following plugin and exute the test cases using command prompt -->
+
+                <!-- mvn clean -> to clean the project -->
+                <!-- mvn compile -> to check for any errors in the code -->
+                <!-- mvn test -> to run all the test -->
+                <!-- mvn -Dtest=ClassName test, this will run only specific class -->
+
+                <pluginManagement>
+                    <plugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-surefire-plugin</artifactId>
+                            <version>3.0.0-M6</version>
+                            <configuration>
+                                <suiteXmlFiles>
+                                    <suiteXmlFile>surefireplugin.xml</suiteXmlFile>
+                                </suiteXmlFiles>
+                            </configuration>
+                        </plugin>
+                    </plugins>
+
+                </pluginManagement>
+            </build>
 
 
+        </profile>
+    </profiles>
 
-
-
-
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M6</version>
-                    <configuration>
-                        <suiteXmlFiles>
-                            <suiteXmlFile>surefire.xml</suiteXmlFile>
-                        </suiteXmlFiles>
-                    </configuration>
-                </plugin>
-            </plugins>
-
-        </pluginManagement>
-    </build>
 
 
 
