@@ -1,0 +1,15 @@
+<suite name="profiling">
+    <test name="smoke">
+        <classes>
+            <class name = "Smoke"/>
+        </classes>
+    </test>
+
+    <test name="regression">
+        <classes>
+            <class name="Regression1"/>
+            <class name="Regression2"/>
+
+        </classes>
+    </test>
+</suite>
